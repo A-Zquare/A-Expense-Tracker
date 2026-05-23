@@ -1,0 +1,99 @@
+{
+  "transactions": [
+    {
+      "id": "tx-1",
+      "title": "Starbucks Reserve",
+      "amount": 12.40,
+      "category": "lifestyle",
+      "type": "expense",
+      "date": "2026-05-23",
+      "time": "10:24 AM",
+      "notes": "Nitro Cold Brew & Butter Croissant",
+      "tags": ["flagged"]
+    },
+    {
+      "id": "tx-2",
+      "title": "Whole Foods Market",
+      "amount": 184.20,
+      "category": "food",
+      "type": "expense",
+      "date": "2026-05-22",
+      "time": "05:12 PM",
+      "notes": "Organic grocery haul for the week",
+      "tags": ["recurring"]
+    },
+    {
+      "id": "tx-3",
+      "title": "Apple Store",
+      "amount": 1200.00,
+      "category": "shopping",
+      "type": "expense",
+      "date": "2026-05-21",
+      "time": "02:30 PM",
+      "notes": "iPhone 15 Pro Max trade-in purchase",
+      "tags": []
+    },
+    {
+      "id": "tx-4",
+      "title": "Freelance Design Gig",
+      "amount": 2500.00,
+      "category": "income",
+      "type": "income",
+      "date": "2026-05-20",
+      "time": "09:00 AM",
+      "notes": "Q2 branding project milestone credit",
+      "tags": []
+    },
+    {
+      "id": "tx-5",
+      "title": "Netflix Subscription",
+      "amount": 15.49,
+      "category": "entertainment",
+      "type": "expense",
+      "date": "2026-05-19",
+      "time": "07:15 AM",
+      "notes": "Premium Ultra HD monthly plan",
+      "tags": ["recurring"]
+    },
+    {
+      "id": "tx-6",
+      "title": "Monthly Rent & Energy",
+      "amount": 2100.00,
+      "category": "housing",
+      "type": "expense",
+      "date": "2026-05-18",
+      "time": "10:00 AM",
+      "notes": "Apartment 4B monthly lease + grid utilities",
+      "tags": ["recurring"]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "noti-1",
+      "text": "AI alert: You spent $142 on coffee this month. Reduce to stay under budget.",
+      "time": "2h ago",
+      "unread": true
+    },
+    {
+      "id": "noti-2",
+      "text": "Netflix subscription was auto-renewed successfully ($15.49).",
+      "time": "Yesterday",
+      "unread": false
+    },
+    {
+      "id": "noti-3",
+      "text": "Biweekly salary has been credited to your Chase Account.",
+      "time": "3 days ago",
+      "unread": false
+    }
+  ],
+  "categories": {
+    "food": { "name": "Food & Dining", "icon": "restaurant-outline", "color": "#6366f1", "baseSpent": 1240, "budget": 1500 },
+    "lifestyle": { "name": "Lifestyle", "icon": "heart-outline", "color": "#8b5cf6", "baseSpent": 850, "budget": 1200 },
+    "housing": { "name": "Rent & Utilities", "icon": "home-outline", "color": "#14b8a6", "baseSpent": 2100, "budget": 2100 },
+    "shopping": { "name": "Shopping", "icon": "cart-outline", "color": "#ec4899", "baseSpent": 1200, "budget": 1500 },
+    "entertainment": { "name": "Entertainment", "icon": "film-outline", "color": "#f59e0b", "baseSpent": 310, "budget": 500 },
+    "travel": { "name": "Travel", "icon": "airplane-outline", "color": "#10b981", "baseSpent": 150, "budget": 400 },
+    "income": { "name": "Income", "icon": "arrow-down-circle-outline", "color": "#10b981", "baseSpent": 0, "budget": 0 }
+  }
+}
